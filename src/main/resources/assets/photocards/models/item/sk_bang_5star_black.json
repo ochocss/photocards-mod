@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "photocards:item/sk_bang_5star_black"
+  }
+}

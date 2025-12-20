@@ -1,0 +1,14 @@
+{
+  "type": "photocards:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/abandoned_mineshaft"
+    },
+    {
+      "chance": 0.3,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "photocards:sk_bang_5star_black"
+}

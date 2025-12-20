@@ -1,0 +1,14 @@
+{
+  "type": "photocards:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/shipwreck_supply"
+    },
+    {
+      "chance": 0.6,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "photocards:sk_han_ordinary_black"
+}

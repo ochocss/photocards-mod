@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "photocards:item/sk_lee_go_two"
+  }
+}

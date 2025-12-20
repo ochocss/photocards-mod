@@ -1,0 +1,14 @@
+{
+  "type": "photocards:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_tannery"
+    },
+    {
+      "chance": 0.3,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "photocards:sk_lee_maxident_stripes"
+}

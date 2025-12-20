@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "key": {
+    "c": {
+      "item": "minecraft:leather"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+
+  "pattern": [
+    "cpp",
+    "csp",
+    "cpp"
+  ],
+
+  "result": {
+    "item": "photocards:photobook"
+  }
+}
