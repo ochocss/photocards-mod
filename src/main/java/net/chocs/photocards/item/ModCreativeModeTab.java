@@ -1,6 +1,7 @@
 package net.chocs.photocards.item;
 
 import net.chocs.photocards.Photocards;
+import net.chocs.photocards.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,6 +19,7 @@ public class ModCreativeModeTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PHOTOBOOK.get()))
                     .title(Component.translatable("creativetab.photocard_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.TRADING_POST.get());
                         for (RegistryObject<Item> item : ModItems.ITEMS.getEntries()) {
                             output.accept(item.get());
                         }

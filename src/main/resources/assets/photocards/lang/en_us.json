@@ -1,6 +1,10 @@
 {
   "creativetab.photocard_tab": "Photocards",
 
+  "entity.minecraft.villager.photocards.pc_trader": "Photocard Trader",
+
+  "block.photocards.trading_post": "Trading Post",
+
   "item.photocards.photobook": "Photobook",
 
   "item.photocards.sk_lee_mixtape_blue": "Lee Know Mixtape",

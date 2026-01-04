@@ -1,11 +1,13 @@
 package net.chocs.photocards;
 
 import com.mojang.logging.LogUtils;
+import net.chocs.photocards.block.ModBlocks;
 import net.chocs.photocards.gui.ModMenus;
 import net.chocs.photocards.item.ModCreativeModeTab;
 import net.chocs.photocards.item.ModItems;
 import net.chocs.photocards.loot.ModLootModifiers;
 import net.chocs.photocards.network.ModNetwork;
+import net.chocs.photocards.villager.ModVillagers;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,8 +37,10 @@ public class Photocards {
 
         ModCreativeModeTab.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModMenus.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup); // Register the commonSetup method for modloading
 

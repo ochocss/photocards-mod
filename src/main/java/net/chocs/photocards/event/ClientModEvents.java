@@ -1,4 +1,4 @@
-package net.chocs.photocards.client;
+package net.chocs.photocards.event;
 
 import net.chocs.photocards.Photocards;
 import net.chocs.photocards.gui.ModMenus;

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "photocards:block/trading_post"
+    }
+  }
+}
